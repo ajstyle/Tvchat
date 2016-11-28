@@ -1,9 +1,10 @@
 {
-  "name": "ionic-project",
+  "name": "tvchat",
   "version": "1.1.1",
   "description": "An Ionic project",
   "dependencies": {
     "@ionic/cloud": "^0.14.0",
+    "express": "^4.14.0",
     "gulp": "^3.5.6",
     "gulp-concat": "^2.2.0",
     "gulp-minify-css": "^0.3.0",
@@ -23,5 +24,19 @@
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajstyle/Tvchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajstyle/Tvchat/issues"
+  },
+  "homepage": "https://github.com/ajstyle/Tvchat#readme"
 }
